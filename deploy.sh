@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 function main() {
-  local src_dir="/Users/sellis/src/bandarji/www-sunrise-hale/"
+  local src_dir="/Users/sellis/src/bandarji/www-sunrisehale-com/"
   local dst_dir="sunrisehale:~/sunrisehale.com/"
   local rs_args1="--recursive --links --times --compress --human-readable"
   local rs_args2="--progress --ipv4 --exclude-from=NODEPLOY -e ssh"
